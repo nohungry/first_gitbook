@@ -7,6 +7,11 @@ $ npm install gitbook-cli -g
 ```
     -g : 全域安裝
 
+Tips: 後續測試不使用全域也無所謂, 可以直接在自定義的 GitBook 專案目錄底下直接安裝, 不過要先在專案目錄底下 ```npm init -y```
+
+Tips: 後續測試安裝 gitbook-cli 會跳出套件上的相容與依賴項存在漏洞```56 vulnerabilities (1 low, 19 moderate, 29 high, 7 critical)```, 先不處理仍然可以正常跑
+
+
 ![return](/image/gitbook-cli_version.jpg)
 
 ---

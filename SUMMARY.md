@@ -6,3 +6,6 @@
    * [NVM安装](/document/nvmInstallStep.md)
    * [Node.js安装](/document/nodeInstallStep.md)
    * [GitBook命令行瀏覽](/document/gitBookCli.md)
+
+* 發布GitBook
+   * [GitHub](/document/pushToGithubPages.md)
