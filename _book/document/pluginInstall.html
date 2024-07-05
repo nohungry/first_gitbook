@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>NVM安装 · 測試範例使用</title>
+        <title>gitbook-plugin-search-pro · 測試範例使用</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -50,8 +50,6 @@
     <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
-    
-    <link rel="next" href="nodeInstallStep.html" />
     
     
 
@@ -108,7 +106,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter active" data-level="1.2.1" data-path="nvmInstallStep.html">
+        <li class="chapter " data-level="1.2.1" data-path="nvmInstallStep.html">
             
                 <a href="nvmInstallStep.html">
             
@@ -198,7 +196,7 @@
             <ul class="articles">
                 
     
-        <li class="chapter " data-level="1.4.1" data-path="pluginInstall.html">
+        <li class="chapter active" data-level="1.4.1" data-path="pluginInstall.html">
             
                 <a href="pluginInstall.html">
             
@@ -246,7 +244,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >NVM安装</a>
+        <a href=".." >gitbook-plugin-search-pro</a>
     </h1>
 </div>
 
@@ -264,61 +262,15 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="nvm-&#x5B89;&#x88DD;&#x6307;&#x5357;">NVM &#x5B89;&#x88DD;&#x6307;&#x5357;</h1>
-<h2 id="&#x64CD;&#x4F5C;&#x7CFB;&#x7D71;">&#x64CD;&#x4F5C;&#x7CFB;&#x7D71;</h2>
-<ul>
-<li>Windows 11</li>
-</ul>
-<h2 id="&#x5B89;&#x88DD;&#x6B65;&#x9A5F;">&#x5B89;&#x88DD;&#x6B65;&#x9A5F;</h2>
-<h3 id="1-&#x4E0B;&#x8F09;-nvm-for-windows">1. &#x4E0B;&#x8F09; NVM for Windows</h3>
-<p>&#x9996;&#x5148;&#xFF0C;&#x524D;&#x5F80; <a href="https://github.com/coreybutler/nvm-windows/releases" target="_blank">NVM for Windows</a> &#x7684; GitHub &#x9801;&#x9762;&#xFF0C;&#x4E0B;&#x8F09;&#x6700;&#x65B0;&#x7684;&#x5B89;&#x88DD;&#x7A0B;&#x5F0F;&#x3002;</p>
-<h3 id="2-&#x5B89;&#x88DD;-nvm">2. &#x5B89;&#x88DD; NVM</h3>
-<p>&#x96D9;&#x64CA;&#x4E0B;&#x8F09;&#x7684;&#x5B89;&#x88DD;&#x7A0B;&#x5E8F;&#xFF0C;&#x6309;&#x7167;&#x63D0;&#x793A;&#x5B8C;&#x6210;&#x5B89;&#x88DD;&#x3002;&#x5B89;&#x88DD;&#x904E;&#x7A0B;&#x4E2D;&#x53EF;&#x4EE5;&#x9078;&#x64C7;&#x5B89;&#x88DD;&#x76EE;&#x9304;&#xFF0C;&#x9ED8;&#x8A8D;&#x60C5;&#x6CC1;&#x4E0B;&#x6703;&#x5B89;&#x88DD;&#x5728; <code>C:\Program Files\nodejs</code>&#x3002;</p>
-<!-- ### 3. 配置 NVM
-
-安裝完成後，打開命令提示符或 PowerShell，運行以下命令來配置 NVM：
-
-```bash
-nvm setup
-```
-通常不會使用這步驟 -->
-<h3 id="3-&#x9A57;&#x8B49;-nvm-&#x5B89;&#x88DD;&#x6210;&#x529F;">3. &#x9A57;&#x8B49; NVM &#x5B89;&#x88DD;&#x6210;&#x529F;</h3>
-<p>&#x5B89;&#x88DD;&#x5B8C;&#x6210;&#x5F8C;&#xFF0C;&#x6253;&#x958B;&#x547D;&#x4EE4;&#x63D0;&#x793A;&#x7B26;&#x6216; PowerShell&#xFF0C;&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4; : </p>
-<pre><code class="lang-Powershell">$ nvm -v
-</code></pre>
-<pre><code class="lang-Powershell">$ nvm version
-</code></pre>
-<p><img src="../image/nvm_version_return.jpg" alt="return"></p>
-<h3 id="4-&#x5217;&#x51FA;-nvm-&#x547D;&#x4EE4;">4. &#x5217;&#x51FA; NVM &#x547D;&#x4EE4;</h3>
-<p>&#x4F60;&#x53EF;&#x4EE5;&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x4F86;&#x67E5;&#x770B;&#x6240;&#x6709;&#x53EF;&#x7528;&#x7684; NVM &#x547D;&#x4EE4; :</p>
-<pre><code class="lang-Powershell">$ nvm help
-</code></pre>
-<p><img src="../image/nvm_help.jpg" alt="return"></p>
-<h3 id="5-&#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684;-nodejs-&#x7248;&#x672C;">5. &#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684; Node.js &#x7248;&#x672C;</h3>
-<p>&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684; Node.js &#x7248;&#x672C; :</p>
-<pre><code class="lang-Powershell"><span class="hljs-comment"># &#x67E5;&#x770B;&#x53EF;&#x7528;&#x7684; Node.js &#x7248;&#x672C;</span>
-$ nvm ls-remote
-</code></pre>
-<pre><code class="lang-Powershell"><span class="hljs-comment"># &#x5B89;&#x88DD;&#x6700;&#x65B0;&#x7248;&#x672C;</span>
-$ nvm install node
-</code></pre>
-<h3 id="6-&#x5217;&#x51FA;&#x6240;&#x6709;&#x5DF2;&#x5B89;&#x88DD;&#x7684;-nodejs-&#x7248;&#x672C;">6. &#x5217;&#x51FA;&#x6240;&#x6709;&#x5DF2;&#x5B89;&#x88DD;&#x7684; Node.js &#x7248;&#x672C;</h3>
-<p>&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x67E5;&#x770B;&#x5DF2;&#x5B89;&#x88DD;&#x7684; Node.js &#x7248;&#x672C; :</p>
-<pre><code class="lang-Powershell">$ nvm ls
-</code></pre>
-<p><img src="../image/nvm_ls.jpg" alt="return"></p>
-<h3 id="7-&#x5207;&#x63DB;&#x4F7F;&#x7528;&#x7684;-nodejs-&#x7248;&#x672C;">7. &#x5207;&#x63DB;&#x4F7F;&#x7528;&#x7684; Node.js &#x7248;&#x672C;</h3>
-<p>&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x4F86;&#x4F7F;&#x7528;&#x7279;&#x5B9A;&#x7684; Node.js &#x7248;&#x672C; :</p>
-<pre><code class="lang-Powershell">$ nvm use &lt;&#x7248;&#x672C;&#x865F;&gt;
-</code></pre>
-<pre><code class="lang-Powershell">$ nvm use <span class="hljs-number">18.20</span>.<span class="hljs-number">2</span>
-</code></pre>
-<h3 id="8-&#x89E3;&#x9664;&#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684;-nodejs-&#x7248;&#x672C;">8. &#x89E3;&#x9664;&#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684; Node.js &#x7248;&#x672C;</h3>
-<p>&#x904B;&#x884C;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x4F86;&#x89E3;&#x9664;&#x5B89;&#x88DD;&#x7279;&#x5B9A;&#x7684; Node.js &#x7248;&#x672C; :</p>
-<pre><code class="lang-Powershell">$ nvm uninstall &lt;&#x7248;&#x672C;&#x865F;&gt;
-</code></pre>
-<pre><code class="lang-Powershell">$ nvm uninstall <span class="hljs-number">20.15</span>.<span class="hljs-number">0</span>
-</code></pre>
+                                <h1 id="install-plugin">Install plugin</h1>
+<h2 id="&#x624B;&#x52D5;&#x5B89;&#x88DD;&#x6D41;&#x7A0B;">&#x624B;&#x52D5;&#x5B89;&#x88DD;&#x6D41;&#x7A0B;</h2>
+<ol>
+<li>&#x641C;&#x5C0B;&#x63D2;&#x4EF6;: <a href="https://github.com/gitbook-plugins/gitbook-plugin-search-pro" target="_blank">https://github.com/gitbook-plugins/gitbook-plugin-search-pro</a></li>
+<li><code>cd</code> &#x9032;&#x5165;&#x5230;&#x76EE;&#x9304;&#x88E1;&#x9762;&#x7684; <code>node_module</code></li>
+<li><code>git clone https://github.com/gitbook-plugins/gitbook-plugin-search-pro.git</code></li>
+<li>&#x7136;&#x5F8C;&#x518D; <code>cd</code> &#x9032;&#x5165; <code>\node_modules\gitbook-plugin-search-pro</code></li>
+<li><code>npm install</code> &#x958B;&#x59CB;&#x5B89;&#x88DD;&#x4E26;&#x5B8C;&#x6210;</li>
+</ol>
 
                                 
                                 </section>
@@ -363,10 +315,6 @@ $ nvm install node
             
                 
                 
-                <a href="nodeInstallStep.html" class="navigation navigation-next navigation-unique" aria-label="Next page: Node.js安装">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
             
         
     </div>
@@ -374,7 +322,7 @@ $ nvm install node
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"NVM安装","level":"1.2.1","depth":2,"next":{"title":"Node.js安装","level":"1.2.2","depth":2,"path":"document/nodeInstallStep.md","ref":"document/nodeInstallStep.md","articles":[]},"previous":{"title":"基本安装","level":"1.2","depth":1,"ref":"","articles":[{"title":"NVM安装","level":"1.2.1","depth":2,"path":"document/nvmInstallStep.md","ref":"document/nvmInstallStep.md","articles":[]},{"title":"Node.js安装","level":"1.2.2","depth":2,"path":"document/nodeInstallStep.md","ref":"document/nodeInstallStep.md","articles":[]},{"title":"GitBook命令行瀏覽","level":"1.2.3","depth":2,"path":"document/gitBookCli.md","ref":"document/gitBookCli.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload","highlight","search-pro"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{"theme":"monokai"},"livereload":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"nohungry <tzuyang1991@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"測試範例使用","language":"en","links":{"sharing":{"all":false,"facebook":false,"google":false,"twitter":false}},"gitbook":"*","description":"sample book created by gitbook"},"file":{"path":"document/nvmInstallStep.md","mtime":"2024-07-02T09:55:29.974Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-05T15:01:23.063Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"gitbook-plugin-search-pro","level":"1.4.1","depth":2,"previous":{"title":"安裝插件","level":"1.4","depth":1,"ref":"","articles":[{"title":"gitbook-plugin-search-pro","level":"1.4.1","depth":2,"path":"document/pluginInstall.md","ref":"document/pluginInstall.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload","highlight","search-pro"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{"theme":"monokai"},"livereload":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"nohungry <tzuyang1991@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"測試範例使用","language":"en","links":{"sharing":{"all":false,"facebook":false,"google":false,"twitter":false}},"gitbook":"*","description":"sample book created by gitbook"},"file":{"path":"document/pluginInstall.md","mtime":"2024-07-05T13:01:42.538Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-05T15:01:23.063Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>

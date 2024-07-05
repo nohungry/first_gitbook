@@ -1,11 +1,11 @@
 {
-    "title": "Sample gitbook",
+    "title": "測試範例使用",
     "description": "sample book created by gitbook",
     "author": "nohungry <tzuyang1991@gmail.com>",
     "language": "en",
     "plugins": ["livereload",
                 "highlight",
-                "-search", "search-pro"],
+                "search-pro"],
     "pluginsConfig": {
         "highlight": {
             "theme": "monokai"

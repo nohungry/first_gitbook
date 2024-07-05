@@ -9,3 +9,6 @@
 
 * 發布GitBook
    * [GitHub](/document/pushToGithubPages.md)
+
+* 安裝插件
+   * [gitbook-plugin-search-pro](/document/pluginInstall.md)

@@ -5,7 +5,7 @@
 
 1. Push to Github, 然後另外開一個分支"gh_pages"(可以自定義), 先前我們有 ```gitbook build``` , 會產生出 ```_book``` 的資料夾, 在新的分支中只保留 ```_book``` 裡面的所有文件.
 
-![return](/image/_book.jpg)
+![return](/image/t_book.jpg)
 
 ![return](/image/github_pagebranch.jpg)
 
