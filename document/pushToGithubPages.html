@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>GitBook命令行瀏覽 · Sample gitbook</title>
+        <title>GitHub · Sample gitbook</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -22,10 +22,6 @@
             
                 
                 <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-pro/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
                 
             
                 
@@ -51,8 +47,6 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    
-    <link rel="prev" href="nodeInstallStep.html" />
     
 
     </head>
@@ -134,12 +128,44 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.2.3" data-path="gitBookCli.html">
+        <li class="chapter " data-level="1.2.3" data-path="gitBookCli.html">
             
                 <a href="gitBookCli.html">
             
                     
                     GitBook命令行瀏覽
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    發布GitBook
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.3.1" data-path="pushToGithubPages.html">
+            
+                <a href="pushToGithubPages.html">
+            
+                    
+                    GitHub
             
                 </a>
             
@@ -182,7 +208,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >GitBook命令行瀏覽</a>
+        <a href=".." >GitHub</a>
     </h1>
 </div>
 
@@ -195,60 +221,25 @@
 <div id="book-search-results">
     <div class="search-noresults">
     
-<div id="book-search-results">
-    <div class="search-noresults">
-    
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="gitbook-&#x547D;&#x4EE4;&#x884C;&#x700F;&#x89BD;">GitBook &#x547D;&#x4EE4;&#x884C;&#x700F;&#x89BD;</h1>
-<p><strong>&#x672C;&#x5730;&#x9810;&#x89BD;</strong></p>
-<pre><code class="lang-bash">$ gitbook serve ./{book_name}
-</code></pre>
-<p><strong>&#x8F38;&#x51FA;&#x975C;&#x614B;&#x7DB2;&#x7AD9;</strong></p>
-<pre><code class="lang-bash">$ gitbook build ./{book_name} --output=./{outputFolde}
-</code></pre>
-<p><strong>&#x5E6B;&#x52A9;</strong></p>
-<pre><code class="lang-bash">$ gitbook -h
-
-  Usage: gitbook [options] [<span class="hljs-built_in">command</span>]
-
-  Commands:
-
-    build [options] [<span class="hljs-built_in">source</span>_dir] Build a gitbook from a directory
-    serve [options] [<span class="hljs-built_in">source</span>_dir] Build <span class="hljs-keyword">then</span> serve a gitbook from a directory
-    install [options] [<span class="hljs-built_in">source</span>_dir] Install plugins <span class="hljs-keyword">for</span> a book
-    pdf [options] [<span class="hljs-built_in">source</span>_dir] Build a gitbook as a PDF
-    epub [options] [<span class="hljs-built_in">source</span>_dir] Build a gitbook as a ePub book
-    mobi [options] [<span class="hljs-built_in">source</span>_dir] Build a gitbook as a Mobi book
-    init [<span class="hljs-built_in">source</span>_dir]      Create files and folders based on contents of SUMMARY.md
-    publish [<span class="hljs-built_in">source</span>_dir]   Publish content to the associated gitbook.io book
-    git:remote [<span class="hljs-built_in">source</span>_dir] [book_id] Adds a git remote to a book repository
-
-  Options:
-
-    -h, --help     output usage information
-    -V, --version  output the version number
-</code></pre>
+                                <h1 id="&#x767C;&#x4F48;-gitbook-to-github">&#x767C;&#x4F48; GitBook to Github</h1>
+<h2 id="&#x624B;&#x52D5;&#x90E8;&#x5C6C;&#x6D41;&#x7A0B;">&#x624B;&#x52D5;&#x90E8;&#x5C6C;&#x6D41;&#x7A0B;</h2>
+<ol>
+<li>Push to Github, &#x7136;&#x5F8C;&#x53E6;&#x5916;&#x958B;&#x4E00;&#x500B;&#x5206;&#x652F;&quot;gh_pages&quot;(&#x53EF;&#x4EE5;&#x81EA;&#x5B9A;&#x7FA9;), &#x5148;&#x524D;&#x6211;&#x5011;&#x6709; <code>gitbook build</code> , &#x6703;&#x7522;&#x751F;&#x51FA; <code>_book</code> &#x7684;&#x8CC7;&#x6599;&#x593E;, &#x5728;&#x65B0;&#x7684;&#x5206;&#x652F;&#x4E2D;&#x53EA;&#x4FDD;&#x7559; <code>_book</code> &#x88E1;&#x9762;&#x7684;&#x6240;&#x6709;&#x6587;&#x4EF6;.</li>
+</ol>
+<p><img src="../image/_book.jpg" alt="return"></p>
+<p><img src="../image/github_pagebranch.jpg" alt="return"></p>
+<hr>
+<ol>
+<li>Github <code>Settings</code>&#x9032;&#x5165;&#x5F8C;, &#x9EDE;&#x64CA; <code>Pages</code>, &#x4F9D;&#x7167;&#x5716;&#x7247;&#x586B;&#x5BEB;&#x5C31;&#x53EF;&#x4EE5;&#x5347;&#x6210;&#x4E00;&#x500B;&#x975C;&#x614B;&#x7DB2;&#x9801;&#x3002;</li>
+</ol>
+<p><img src="../image/settings_pages.jpg" alt="return">
+<img src="../image/setting_down.jpg" alt="return"></p>
 
                                 
                                 </section>
                             
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
     </div>
     <div class="search-results">
         <div class="has-results">
@@ -272,10 +263,6 @@
 
             
                 
-                <a href="nodeInstallStep.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Node.js安装">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
                 
             
         
@@ -284,7 +271,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"GitBook命令行瀏覽","level":"1.2.3","depth":2,"previous":{"title":"Node.js安装","level":"1.2.2","depth":2,"path":"document/nodeInstallStep.md","ref":"document/nodeInstallStep.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload","highlight","-search","search-pro"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{"theme":"monokai"},"livereload":{},"search-pro":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"nohungry <tzuyang1991@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Sample gitbook","language":"en","links":{"sharing":{"all":false,"facebook":false,"google":false,"twitter":false}},"gitbook":"*","description":"sample book created by gitbook"},"file":{"path":"document/gitBookCli.md","mtime":"2024-07-01T09:21:45.074Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-02T09:06:13.132Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"GitHub","level":"1.3.1","depth":2,"previous":{"title":"發布GitBook","level":"1.3","depth":1,"ref":"","articles":[{"title":"GitHub","level":"1.3.1","depth":2,"path":"document/pushToGithubPages.md","ref":"document/pushToGithubPages.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["livereload","highlight","-search","search-pro"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"highlight":{"theme":"monokai"},"livereload":{},"search-pro":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":false,"twitter":false,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":[]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","author":"nohungry <tzuyang1991@gmail.com>","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Sample gitbook","language":"en","links":{"sharing":{"all":false,"facebook":false,"google":false,"twitter":false}},"gitbook":"*","description":"sample book created by gitbook"},"file":{"path":"document/pushToGithubPages.md","mtime":"2024-07-05T12:28:13.578Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2024-07-05T12:33:54.713Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
@@ -303,14 +290,6 @@
     
         
         <script src="../gitbook/gitbook-plugin-search-pro/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
         
     
         
