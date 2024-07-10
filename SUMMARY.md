@@ -9,6 +9,7 @@
 
 * 發布GitBook
    * [GitHub](/document/pushToGithubPages.md)
+      * [Node_gh-pages 套件自動發佈](/document/node_ghPages.md)
 
 * 安裝插件
    * [gitbook-plugin-search-pro](/document/pluginInstall.md)
